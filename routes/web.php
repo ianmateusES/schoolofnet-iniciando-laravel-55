@@ -57,7 +57,7 @@ Route::get('/for-if/{value}', function($value){
 });
 
 Route::get('/blade', function(){
-    $nome = 'Luiz Carlos';
+    $nome = 'Ian Mateus';
     $variavel1 = 'valor';
     return view('test')
         ->with('nome', $nome)
@@ -66,7 +66,7 @@ Route::get('/blade', function(){
 });
 
 Route::get('/cliente/cadastrar', function () {
-    $nome = 'Luiz Carlos';
+    $nome = 'Ian Mateus';
     $variavel1 = 'valor';
     /*return view('cadastrar', [
         'nome' => $nome,
